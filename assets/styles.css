@@ -1,0 +1,164 @@
+/* nav li{
+    display: inline-block;
+} Esto es para pantallas grandes*/ 
+/* nav, .container{
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+} */
+.display-in{
+    display: inline-block;
+}
+.display-flex{
+    display: flex;
+}
+.display-block{
+    display: block;
+    flex-direction: row;
+}
+/* block es para pantallas pequeñas*/
+.border-box{
+    box-sizing: border-box;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.no-wrap{
+    flex-wrap: nowrap;
+}
+li {
+    text-align: left;
+}
+nav .menu{
+    display: none;
+}
+nav .menu.visible{
+    display: block;
+}
+@media(min-width: 768px) {
+    .burger-leave{
+        display: none;
+    }
+    nav .menu{
+        display: block;
+        width: auto;
+    }
+    nav .menu li{
+        display: inline-block
+    }
+    .container-md {
+        width: 90%;
+        margin: auto;
+    }
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.margin-top{
+    margin-top: 6rem;
+}
+@media(min-width: 991px) {
+    .col-lg-4{
+        width: 33.33%;
+    }
+    .paddUl2{
+        padding-top: 109px;
+    }
+    .container-lg {
+        width: 80%;
+        margin: auto;
+    }
+    .cont-lg {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .col-lg-12{
+        width: 100%;
+    }
+    .col-lg-3{
+        width: 41.66%;
+    }
+    .col-lg-9{
+        width: 58.33%;
+    }
+    .flex-flow-wrap{
+        flex-flow: wrap;
+    }
+    .center-lg{
+        display: flex;
+        justify-content: center;
+    }
+    img{
+        height: 30rem;
+        min-width: 21rem;
+    }
+    .padd-txt{
+        padding-top: 8rem;
+    }
+    .col-lg-6{
+        width: 50%;
+    }
+    .display-flex-2{
+        display: flex;
+    }
+    .img-3{
+        max-height: 50%;
+    }
+    .aling-items{
+        align-items: center;
+        display: flex;
+    }
+    .img-4{
+        border-radius: 15px;
+        max-height: 50%;
+        width: 25%;
+    }
+    .txt-lg{
+        font-size: 1.5rem;
+    }
+    .col-lg-5{
+        width: 45%;
+    }
+    .col-lg-7{
+        width: 55%;
+    }
+    .img-5{
+        min-width: 13rem;
+    }
+}
+@media(min-width: 1240px) {
+    .paddLG{
+        padding-top: 84px;
+    }
+    .container-xxlg {
+        width: 70%;
+        margin: auto;
+    }    
+}
+@media(min-width: 1500px) {
+    .container-xxlg {
+        width: 60%;
+        margin: auto;
+    }
+}    
+/* hay que acomodar bien las listas de la info ya que se descuadran al momento de hacer reducir o aumentar el tamaño */
+.icons{
+    background-color: #171717;
+    border-radius: 100%;
+}
+.list-inline-item {
+    display: inline-block;
+}
+.img-1{
+    width: 100%;
+    padding-top: 1rem;
+    border-radius: 30px;
+}
+.img-2{
+    width: 25%;
+    border-radius: 10px;
+}

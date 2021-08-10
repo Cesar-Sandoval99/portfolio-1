@@ -1,0 +1,101 @@
+.space-bt{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap; 
+}
+.row-2{
+    flex-direction: row;
+}
+.bg-black{
+    background-color: black;
+}
+.base-color{
+    color: #1ab394 !important;
+}
+.font{
+    font-size: 1.2rem;
+}
+.bg-img{
+    background-image: url(https://retrina.com/demo/westin/assets/img/hero.jpg);
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 80%)
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+.paddTYP{
+    padding: 1rem 0rem;
+}
+.bt-menu{
+    background-color: transparent;
+    border: 0;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.padd-li{
+    padding: 1px 10px;
+}
+.padd-li-2{
+    padding: 1px 12px;
+}
+.padd-right{
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+.img-personal{
+    max-width: 12.5rem;
+    border-radius: 10px;
+}
+.padd-bt{
+    padding-bottom: 2rem;
+}
+.line-heigth{
+    padding-bottom: 10px;
+}
