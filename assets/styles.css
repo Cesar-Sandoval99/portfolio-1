@@ -171,15 +171,15 @@ nav{
     margin-top: 1rem;
 }
 .bar-progress {
-    height: 7px;
+    height: 5px;
     background-color: #1ab394;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 .bar-html {
-    width: 85%;
+    width: 75%;
 }
 .bar-css {
-    width: 90%;
+    width: 80%;
 }
 .bar-js {
     width: 60%;
