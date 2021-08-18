@@ -3,4 +3,4 @@ function toggleMenu() {
     const menu = document.getElementById(`main-menu`);
     //agregamos/quitamos la clase visible. Para agregar a index.html usar "script"
     menu.classList.toggle(`visible`);
-}
+} 

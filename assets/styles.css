@@ -112,6 +112,10 @@ nav{
         align-items: center;
         display: flex;
     }
+    .aling-items-flex-end{
+        align-items: flex-end;
+        display: flex;
+    }
     .img-4{
         border-radius: 15px;
         max-height: 50%;
@@ -145,7 +149,7 @@ nav{
         margin: auto;
     }
 }    
-/* hay que acomodar bien las listas de la info ya que se descuadran al momento de hacer reducir o aumentar el tamaño */
+
 .icons{
     background-color: #171717;
     border-radius: 100%;
@@ -159,6 +163,27 @@ nav{
     border-radius: 30px;
 }
 .img-2{
-    width: 25%;
+    width: 20%;
+    height: 30%;
     border-radius: 10px;
+}
+.bar {
+    margin-top: 1rem;
+}
+.bar-progress {
+    height: 7px;
+    background-color: #1ab394;
+    border-radius: 5px;
+}
+.bar-html {
+    width: 85%;
+}
+.bar-css {
+    width: 90%;
+}
+.bar-js {
+    width: 60%;
+}
+.bar-php {
+    width: 30%;
 }
