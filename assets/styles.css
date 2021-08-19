@@ -187,3 +187,40 @@ nav{
 .bar-php {
     width: 30%;
 }
+.buttons{
+    background-color: #171717;
+    color: #1ab394;
+}
+.icon1{
+    padding-right: 10px;
+}
+.icon2{
+    padding-right: 12px;
+}
+.education-box{
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.education-bgc{
+    background-color: #282828;
+    border-radius: 10px;
+}
+.paddtop{
+    padding-top: 1rem;
+}
+.paddtop-1r{
+    padding-top: 1rem;
+}
+.padd-bottom-1r{
+    padding-bottom: 1rem;
+}
+.date{
+    background-color: #1ab394;
+    border-radius: 15px;
+    font-size: 14px;
+    padding: 3px;
+}
+.education-txt{
+    padding-left: 2rem;
+
+}
