@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/helpers.css">
     <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="./assets/js/button.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -40,7 +41,7 @@
             </div>
         </div> 
     </nav>
-<section class="dark-transparent bg-img margin-top">
+<section class="dark-transparent bg-img margin-top" id="main-section">
     <div class="container container-md container-lg container-xlg container-xxlg">
         <div class="cont-lg flex-flow-wrap">
             <div class="col-12 col-lg-3">
@@ -95,7 +96,6 @@
             <p>I was doing everything in my power to provide me with all the experiences to provide cost-effective and high quality products to satisfy my customers all over the world</p>
         </div>
         <div class="col-12 col-lg-6 aling-items-flex-end">
-                <!-- <img class="img-1 img-3" src="./assets/img/grafica2.PNG" alt=""> -->
                 <div class="col-12">  
                     <h3>Html</h3>
                     <div class="bar">
@@ -124,17 +124,14 @@
             <p class="padd-bt">I am available for freelance projects</p>
     </div>
     <div class="display-flex display-flex-2">
-        <!-- <img class="img-4 img-2 img-5" src="./assets/img/client1.jpg" alt=""> -->
         <div class="col-12 col-lg-8 display-flex">
-            <!-- <p class="padd-bt txt-lg">"</p> -->
-             <button class="buttons icon1"><i class="fas fa-graduation-cap fa-lg"></i></button> <p class="sub-titles">Education</p>
+             <button class="buttons icon1"><i class="fas fa-graduation-cap fa-lg" style="color: #1ab394"></i></button> <p class="sub-titles">Education</p>
 
         </div>
-        <div class="col-12 col-lg-8 display-flex button-invisible button-visible"><span class="buttons icon2"><i class="fas fa-pencil-alt fa-lg"></i></span> <p class="sub-titles">Experience</p>
+        <div class="col-12 col-lg-8 display-flex button-invisible button-visible"><span class="buttons icon2"><i class="fas fa-pencil-alt fa-lg" style="color: #1ab394;"></i></span> <p class="sub-titles">Experience</p>
         </div>
+    </div>    
     </div>
-       
-    </div> <!--  va en el 160 en caso de que no funcione-->
     <section class="container container-md container-lg container-xlg container-xxlg display-block">
     <div class="display-flex-2 education-box paddtop"> 
         <div class="col-12 col-lg-8 padd-left resume-style margin-b-2rem my-resume-small resume-style-lg">
@@ -151,21 +148,21 @@
             <span class="relative">
                 <p class="circle absolute"></p>
             </span>
-            <div class="padd-bt education-bgc education-txt resume-style resume-small"><h5 class="padd-bottom-1r">Studied at New York University 2</h5>
+            <div class="padd-bt education-bgc education-txt resume-style resume-small"><h5 class="padd-bottom-1r">Master In Computer Science 1</h5>
                 <span class="date">2008-2021</span>
                 <p class="paddtop-1r">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo perferendis voluptate quasi? Dolorem perferendis voluptatibus ad et laudantium iure, animi esse voluptate optio</p>
             </div>
 
         </div>
     </div>
-    <div class="col-12 col-lg-8 display-flex button-invisible-2 padd-left"><span class="buttons icon2"><i class="fas fa-pencil-alt fa-lg"></i></span> <p class="sub-titles">Experience</p>
+    <div class="col-12 col-lg-8 display-flex button-invisible-2 padd-left"><span class="buttons icon2"><i class="fas fa-pencil-alt fa-lg" style="color: #1ab394"></i></span> <p class="sub-titles">Experience</p>
     </div>
     <div class="display-flex-2 education-box paddtop"> 
         <div class="col-12 col-lg-8 padd-left resume-style margin-b-2rem my-resume-small resume-style-lg">
             <span class="relative">
                 <p class="circle absolute"></p>
             </span>
-            <div class="padd-bt education-bgc education-txt resume-style resume-small"><h5 class="padd-bottom-1r">Studied at New York University 3</h5>
+            <div class="padd-bt education-bgc education-txt resume-style resume-small"><h5 class="padd-bottom-1r">Studied at New York University 2</h5>
                 <span class="date">2008-2021</span>
                 <p class="paddtop-1r">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo perferendis voluptate quasi? Dolorem perferendis voluptatibus ad et laudantium iure, animi esse voluptate optio</p>
             </div>
@@ -175,7 +172,7 @@
             <span class="relative">
                 <p class="circle absolute"></p>
             </span>
-            <div class="padd-bt education-bgc education-txt resume-style resume-small"><h5 class="padd-bottom-1r">Studied at New York University 4</h5>
+            <div class="padd-bt education-bgc education-txt resume-style resume-small"><h5 class="padd-bottom-1r">Master In Computer Science 2</h5>
                 <span class="date">2008-2021</span>
                 <p class="paddtop-1r">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo perferendis voluptate quasi? Dolorem perferendis voluptatibus ad et laudantium iure, animi esse voluptate optio</p>
             </div>
@@ -201,5 +198,10 @@
         </div>
     </section>
 </section>
+<div class="buttonMain">
+    <button id="homeButton" class="position-fix">
+        <i class="fas fa-home fa-lg"></i> 
+    </button>
+</div>
 </body>
 </html>
