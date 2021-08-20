@@ -37,6 +37,14 @@ nav .menu{
 nav .menu.visible{
     display: block;
 }
+@media(min-width: 461px){
+    .resume-small{
+        width: 78%;
+    }
+    .button-invisible{
+        display: none;
+    }
+}
 @media(min-width: 768px) {
     .burger-leave{
         display: none;
@@ -52,6 +60,16 @@ nav .menu.visible{
         width: 90%;
         margin: auto;
     }
+    /* .my-resume-small1{
+        margin: inherit;
+    } */
+    .my-resume-g{
+        margin-bottom: 2rem;
+    }
+    .resume-style{
+        width: 90%;
+    }
+
 }
 nav{
     position: fixed;
@@ -131,8 +149,20 @@ nav{
         width: 55%;
     }
     .img-5{
-        min-width: 13rem;
+        min-width: 15rem;
+        min-height: 20rem;
     }
+    .button-visible{
+        display: flex;
+    }
+    .button-invisible-2{
+        display: none;
+    }
+    .img-personal{
+        border-radius: 35px;
+        max-height: 27rem;
+    }
+
 }
 @media(min-width: 1240px) {
     .paddLG{
@@ -142,6 +172,7 @@ nav{
         width: 70%;
         margin: auto;
     }    
+
 }
 @media(min-width: 1500px) {
     .container-xxlg {
@@ -198,7 +229,6 @@ nav{
     padding-right: 12px;
 }
 .education-box{
-    margin-left: 2rem;
     margin-bottom: 2rem;
 }
 .education-bgc{
@@ -214,6 +244,9 @@ nav{
 .padd-bottom-1r{
     padding-bottom: 1rem;
 }
+.padd-left{
+    padding-left: 3rem;
+}
 .date{
     background-color: #1ab394;
     border-radius: 15px;
@@ -222,5 +255,30 @@ nav{
 }
 .education-txt{
     padding-left: 2rem;
+    padding-top: 25px;
+    padding-right: 1rem;
 
+}
+.circle{
+    color: #1ab394;
+    background-color: #1ab394;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+.relative{
+    position: relative;
+    padding-right: 10px;
+}
+.absolute{
+    position: absolute;
+    top: 1.7rem;
+    right: 1.5rem;
+}
+
+.margin-b-2rem{
+    margin-bottom: 2rem;
+}
+.b-radius-50{
+    border-radius: 50px;
 }
