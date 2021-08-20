@@ -37,7 +37,7 @@ nav .menu{
 nav .menu.visible{
     display: block;
 }
-@media(min-width: 461px){
+@media(min-width: 400px){
     .resume-small{
         width: 78%;
     }
